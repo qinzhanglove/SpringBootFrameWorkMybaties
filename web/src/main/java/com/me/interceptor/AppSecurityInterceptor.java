@@ -1,17 +1,19 @@
 package com.me.interceptor;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.me.common.exception.BusinessException;
+import com.me.common.exception.ErrorCode;
+import com.me.utils.ConstantsUtils;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * Created by jack rose on 2018/1/4.
+ */
 public class AppSecurityInterceptor extends HandlerInterceptorAdapter {
 
-	private static final Logger logger = LoggerFactory
-			.getLogger(AppSecurityInterceptor.class);
 
 
 	@Override
