@@ -1,4 +1,4 @@
-package com.hrt.utils;
+package com.me.utils;
 
 public class ConstantsUtils {
 	public static final String DEFAULT_ENCODE = "UTF-8";

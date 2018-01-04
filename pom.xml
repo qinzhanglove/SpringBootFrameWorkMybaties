@@ -3,18 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.youyi</groupId>
-	<artifactId>hrt</artifactId>
+	<groupId>com.me</groupId>
+	<artifactId>mybaties</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 
 	<modules>
-		<module>domain</module>
 		<module>web</module>
+		<module>domain</module>
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>hrt</name>
+	<name>SpringBootFrameWorkMybaties</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

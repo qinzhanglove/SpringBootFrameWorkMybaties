@@ -1,4 +1,4 @@
-package com.hrt.utils;
+package com.me.utils;
 
 import net.sf.cglib.beans.BeanCopier;
 
